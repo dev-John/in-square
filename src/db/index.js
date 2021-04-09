@@ -1,1 +1,1 @@
-export const meterValue = 10000;
+export const meterValue = 9800;
