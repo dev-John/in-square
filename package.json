@@ -6,11 +6,14 @@
   "type": "module",
   "scripts": {
     "start": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "c8 ava",
+    "test:watch": "c8 ava --watch"
   },
   "author": "Jonatas Oliveira",
   "license": "ISC",
   "dependencies": {
+    "ava": "^3.15.0",
+    "c8": "^7.7.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "lowdb": "^1.0.0",
