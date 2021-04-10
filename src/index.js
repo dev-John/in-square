@@ -14,7 +14,7 @@ const swaggerDocument = await swaggerJsDoc(swaggerOptions);
 const port = process.env.PORT || 3333;
 
 app.use(
-  "/api-docs",
+  "/documentation",
   swaggerUi.serve,
   swaggerUi.setup(swaggerDocument, { explorer: true })
 );
