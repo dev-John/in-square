@@ -1,5 +1,8 @@
-import { meterValue } from "../db/index.js";
+import low from "lowdb";
+import FileSync from "lowdb/adapters/FileSync.js";
+
+const db = low(new FileSync("db.json"));
 
 export function getMeterPrice() {
-  return meterValue;
+  return db.get("squareMeterValue").value();
 }
