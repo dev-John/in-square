@@ -3,7 +3,7 @@
  <img width="100%" src="https://user-images.githubusercontent.com/28464939/114287037-30a78e00-9a3a-11eb-8d08-2711aac5cca3.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">in-square</h3>
+<h3 align="center">in-square (API1)</h3>
 
 ---
 
